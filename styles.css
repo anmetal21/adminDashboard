@@ -11,7 +11,7 @@ h4 {
 .container{
     height:100vh;
     display:grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 6fr;
 }
 
 .leftcontainer {
@@ -39,6 +39,8 @@ h4 {
 
 .rHeader {
     background-color: beige;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
 .cardContainer {
@@ -72,6 +74,7 @@ h4 {
     display: grid;
     grid-template-rows: 1fr 10fr;
 }
+
 .trendingcontent{
     background-color: white;
     padding: 20px;
@@ -79,4 +82,75 @@ h4 {
     margin-right: 20px;
     height: 80%
 
+}
+
+.icon {
+    width:30px;
+}
+
+#bigicon {
+    width:40px;
+    justify-self: center;
+}
+
+.lHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash {
+    width: 70px;
+}
+
+.upperHeader {
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.searchbar {
+    height:20px;
+    width: 80%;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.lowerHeader {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+
+}
+
+.welcome {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+
+}
+
+.lowerRightHeader {
+    display: flex;
+    justify-content: flex-end;
+    padding-right:20%;
+    gap: 30px;
+    flex-shrink:0;
+}
+
+.lowerRightHeader button{
+    height: 30px;
+    width: 80px;
+    
 }
