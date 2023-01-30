@@ -1,0 +1,82 @@
+*{
+    margin:0;
+}
+
+h4 {
+    margin-top:10px;
+    margin-bottom:-10px;
+    margin-left: 10px;
+}
+
+.container{
+    height:100vh;
+    display:grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.leftcontainer {
+    display:grid;
+    grid-template-rows: 1fr 2fr 4fr;
+    background-color: lightblue;
+}
+
+.rightcontainer {
+    display:grid;
+    grid-template-rows: 2fr 12fr 1fr;
+    background-color: yellow;
+}
+
+.mainBody{
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+   
+}
+
+.bodyR {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.rHeader {
+    background-color: beige;
+}
+
+.cardContainer {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height:100%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card{
+    background-color: white;
+    padding:10px;
+}
+
+
+.announcements {
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+}
+.announcementContainer {
+    background-color: white;
+    padding: 20px;
+    display:grid;
+    margin-right: 20px;
+
+}
+
+.trending{
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+}
+.trendingcontent{
+    background-color: white;
+    padding: 20px;
+    display:grid;
+    margin-right: 20px;
+    height: 80%
+
+}
