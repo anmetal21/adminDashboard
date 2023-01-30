@@ -2,6 +2,15 @@
     margin:0;
 }
 
+
+ul {
+    list-style: none;
+    padding: 10%;
+}
+
+li {
+    margin-top: 20px;
+}
 h4 {
     margin-top:10px;
     margin-bottom:-10px;
@@ -16,7 +25,7 @@ h4 {
 
 .leftcontainer {
     display:grid;
-    grid-template-rows: 1fr 2fr 4fr;
+    grid-template-rows: 1fr 2fr 3fr;
     background-color: lightblue;
 }
 
@@ -85,7 +94,7 @@ h4 {
 }
 
 .icon {
-    width:30px;
+    width:35px;
 }
 
 #bigicon {
@@ -153,4 +162,14 @@ h4 {
     height: 30px;
     width: 80px;
     
+}
+
+ul > li {
+    list-style: none;
+    font-size: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
 }
